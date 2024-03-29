@@ -1,0 +1,12 @@
+.list{
+    display: inline-block;
+    color: red;
+}
+.list a{
+    text-decoration: none;
+}
+.list a:hover,
+.list a.active{
+    color:aqua;
+    text-decoration: underline;
+}
