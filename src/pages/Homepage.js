@@ -13,7 +13,7 @@ function Homepage() {
   return (
     <>
       <h1>This is homepage</h1>
-      <Link to='/products'>Products</Link>
+      <Link to='products'>Products</Link>
       <button onClick={handleClick}>Click Me!</button>
     </>
   )
